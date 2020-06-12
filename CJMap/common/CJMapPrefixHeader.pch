@@ -1,0 +1,23 @@
+//
+//  CJMapPrefixHeader.pch
+//  CJMap
+//
+//  Created by mac on 2020/6/11.
+//  Copyright © 2020 SmartPig. All rights reserved.
+//
+
+#ifndef CJMapPrefixHeader_pch
+#define CJMapPrefixHeader_pch
+#import <Masonry.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <SVProgressHUD.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapNaviKit/AMapNaviKit.h>
+#import <JZLocationConverter.h>
+#import "CJMapHeader.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CJMapPrefixHeader_pch */

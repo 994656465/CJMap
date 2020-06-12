@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04254B2D249208BF002AA131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B2C249208BF002AA131 /* AppDelegate.m */; };
+		04254B33249208BF002AA131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B32249208BF002AA131 /* ViewController.m */; };
+		04254B36249208BF002AA131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04254B34249208BF002AA131 /* Main.storyboard */; };
+		04254B38249208C0002AA131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04254B37249208C0002AA131 /* Assets.xcassets */; };
+		04254B3B249208C0002AA131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04254B39249208C0002AA131 /* LaunchScreen.storyboard */; };
+		04254B3E249208C0002AA131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B3D249208C0002AA131 /* main.m */; };
+		04254B48249208C0002AA131 /* CJMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B47249208C0002AA131 /* CJMapTests.m */; };
+		04254B53249208C0002AA131 /* CJMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B52249208C0002AA131 /* CJMapUITests.m */; };
+		04254B652492138E002AA131 /* CJTrajectoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B642492138E002AA131 /* CJTrajectoryController.m */; };
+		04254B68249213B5002AA131 /* CJLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B67249213B5002AA131 /* CJLocationController.m */; };
+		04254B6B24921819002AA131 /* CJLocalImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B6A24921819002AA131 /* CJLocalImageController.m */; };
+		04254B6E24921B13002AA131 /* CJDirectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B6D24921B13002AA131 /* CJDirectionController.m */; };
+		04254B7524921E85002AA131 /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B7424921E85002AA131 /* MANaviRoute.m */; };
+		04254B7924921ED1002AA131 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B7724921ED1002AA131 /* CommonUtility.m */; };
+		04254B7C24921F06002AA131 /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B7B24921F06002AA131 /* MANaviAnnotation.m */; };
+		04254B7F24921F22002AA131 /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B7E24921F22002AA131 /* MANaviPolyline.m */; };
+		04254B8224921F30002AA131 /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B8024921F30002AA131 /* LineDashPolyline.m */; };
+		04254B8924922DEE002AA131 /* CJPolygonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B8824922DEE002AA131 /* CJPolygonController.m */; };
+		04254B8C249235E2002AA131 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04254B8A249235E2002AA131 /* UIView+MJExtension.m */; };
+		046CD18C249311AD0037A64F /* CJReGeocodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CD18B249311AD0037A64F /* CJReGeocodeController.m */; };
+		047B756A249252E50012790C /* CJSearchPOIPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B7569249252E50012790C /* CJSearchPOIPointAnnotation.m */; };
+		047B756E2492547B0012790C /* CJNAVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B756D2492547B0012790C /* CJNAVController.m */; };
+		047B7572249255390012790C /* MoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B7571249255390012790C /* MoreMenuView.m */; };
+		047B7576249255C40012790C /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B7575249255C40012790C /* SpeechSynthesizer.m */; };
+		047B757A24925FE30012790C /* CJGeocodingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757924925FE30012790C /* CJGeocodingController.m */; };
+		047B757E249261A40012790C /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757C249261A40012790C /* GeocodeAnnotation.m */; };
+		10ABBB41F03EC9A99F962987 /* libPods-CJMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04254B44249208C0002AA131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04254B20249208BF002AA131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04254B27249208BF002AA131;
+			remoteInfo = CJMap;
+		};
+		04254B4F249208C0002AA131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04254B20249208BF002AA131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04254B27249208BF002AA131;
+			remoteInfo = CJMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04254B28249208BF002AA131 /* CJMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04254B2B249208BF002AA131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04254B2C249208BF002AA131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04254B31249208BF002AA131 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04254B32249208BF002AA131 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04254B35249208BF002AA131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04254B37249208C0002AA131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04254B3A249208C0002AA131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04254B3C249208C0002AA131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04254B3D249208C0002AA131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04254B43249208C0002AA131 /* CJMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04254B47249208C0002AA131 /* CJMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMapTests.m; sourceTree = "<group>"; };
+		04254B49249208C0002AA131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04254B4E249208C0002AA131 /* CJMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04254B52249208C0002AA131 /* CJMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMapUITests.m; sourceTree = "<group>"; };
+		04254B54249208C0002AA131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04254B6024920A42002AA131 /* CJMapPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMapPrefixHeader.pch; sourceTree = "<group>"; };
+		04254B6224921083002AA131 /* CJMapHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMapHeader.h; sourceTree = "<group>"; };
+		04254B632492138E002AA131 /* CJTrajectoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJTrajectoryController.h; sourceTree = "<group>"; };
+		04254B642492138E002AA131 /* CJTrajectoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTrajectoryController.m; sourceTree = "<group>"; };
+		04254B66249213B5002AA131 /* CJLocationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJLocationController.h; sourceTree = "<group>"; };
+		04254B67249213B5002AA131 /* CJLocationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLocationController.m; sourceTree = "<group>"; };
+		04254B6924921819002AA131 /* CJLocalImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJLocalImageController.h; sourceTree = "<group>"; };
+		04254B6A24921819002AA131 /* CJLocalImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJLocalImageController.m; sourceTree = "<group>"; };
+		04254B6C24921B13002AA131 /* CJDirectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJDirectionController.h; sourceTree = "<group>"; };
+		04254B6D24921B13002AA131 /* CJDirectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJDirectionController.m; sourceTree = "<group>"; };
+		04254B7324921E85002AA131 /* MANaviRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviRoute.h; sourceTree = "<group>"; };
+		04254B7424921E85002AA131 /* MANaviRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviRoute.m; sourceTree = "<group>"; };
+		04254B7724921ED1002AA131 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		04254B7824921ED1002AA131 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		04254B7A24921F06002AA131 /* MANaviAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviAnnotation.h; sourceTree = "<group>"; };
+		04254B7B24921F06002AA131 /* MANaviAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviAnnotation.m; sourceTree = "<group>"; };
+		04254B7D24921F22002AA131 /* MANaviPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANaviPolyline.h; sourceTree = "<group>"; };
+		04254B7E24921F22002AA131 /* MANaviPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANaviPolyline.m; sourceTree = "<group>"; };
+		04254B8024921F30002AA131 /* LineDashPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineDashPolyline.m; sourceTree = "<group>"; };
+		04254B8124921F30002AA131 /* LineDashPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDashPolyline.h; sourceTree = "<group>"; };
+		04254B8724922DEE002AA131 /* CJPolygonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJPolygonController.h; sourceTree = "<group>"; };
+		04254B8824922DEE002AA131 /* CJPolygonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJPolygonController.m; sourceTree = "<group>"; };
+		04254B8A249235E2002AA131 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		04254B8B249235E2002AA131 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		046CD18A249311AD0037A64F /* CJReGeocodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJReGeocodeController.h; sourceTree = "<group>"; };
+		046CD18B249311AD0037A64F /* CJReGeocodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJReGeocodeController.m; sourceTree = "<group>"; };
+		047B7568249252E50012790C /* CJSearchPOIPointAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJSearchPOIPointAnnotation.h; sourceTree = "<group>"; };
+		047B7569249252E50012790C /* CJSearchPOIPointAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSearchPOIPointAnnotation.m; sourceTree = "<group>"; };
+		047B756C2492547B0012790C /* CJNAVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJNAVController.h; sourceTree = "<group>"; };
+		047B756D2492547B0012790C /* CJNAVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJNAVController.m; sourceTree = "<group>"; };
+		047B7570249255390012790C /* MoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMenuView.h; sourceTree = "<group>"; };
+		047B7571249255390012790C /* MoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMenuView.m; sourceTree = "<group>"; };
+		047B7574249255C40012790C /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		047B7575249255C40012790C /* SpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizer.m; sourceTree = "<group>"; };
+		047B757824925FE30012790C /* CJGeocodingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJGeocodingController.h; sourceTree = "<group>"; };
+		047B757924925FE30012790C /* CJGeocodingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJGeocodingController.m; sourceTree = "<group>"; };
+		047B757C249261A40012790C /* GeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeAnnotation.m; sourceTree = "<group>"; };
+		047B757D249261A40012790C /* GeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeAnnotation.h; sourceTree = "<group>"; };
+		679DBD47AE4F329D961B79A5 /* Pods-CJMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.debug.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.debug.xcconfig"; sourceTree = "<group>"; };
+		6FD9BB9168B8E3901524411C /* Pods-CJMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.release.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.release.xcconfig"; sourceTree = "<group>"; };
+		98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04254B25249208BF002AA131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ABBB41F03EC9A99F962987 /* libPods-CJMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B40249208C0002AA131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B4B249208C0002AA131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04254B1F249208BF002AA131 = {
+			isa = PBXGroup;
+			children = (
+				04254B2A249208BF002AA131 /* CJMap */,
+				04254B46249208C0002AA131 /* CJMapTests */,
+				04254B51249208C0002AA131 /* CJMapUITests */,
+				04254B29249208BF002AA131 /* Products */,
+				BD8BF314078799F7FE8D8AC9 /* Pods */,
+				713C7B5F1592FAC17C718014 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04254B29249208BF002AA131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04254B28249208BF002AA131 /* CJMap.app */,
+				04254B43249208C0002AA131 /* CJMapTests.xctest */,
+				04254B4E249208C0002AA131 /* CJMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04254B2A249208BF002AA131 /* CJMap */ = {
+			isa = PBXGroup;
+			children = (
+				046CD18D249311B20037A64F /* 反地理编码(坐标转地址) */,
+				047B757724925FC70012790C /* 地理编码(地址转坐标) */,
+				047B756B2492545C0012790C /* 导航 */,
+				04254B8624922DB9002AA131 /* 区域内搜索(大众) */,
+				04254B8524922338002AA131 /* 圆点带方向旋转 */,
+				04254B842492231C002AA131 /* 自定义圆点图 */,
+				04254B832492230A002AA131 /* 当前位置 */,
+				04254B6F24921E30002AA131 /* 行车路线轨迹 */,
+				04254B612492105B002AA131 /* common */,
+				04254B2B249208BF002AA131 /* AppDelegate.h */,
+				04254B2C249208BF002AA131 /* AppDelegate.m */,
+				04254B31249208BF002AA131 /* ViewController.h */,
+				04254B32249208BF002AA131 /* ViewController.m */,
+				04254B34249208BF002AA131 /* Main.storyboard */,
+				04254B37249208C0002AA131 /* Assets.xcassets */,
+				04254B39249208C0002AA131 /* LaunchScreen.storyboard */,
+				04254B3C249208C0002AA131 /* Info.plist */,
+				04254B3D249208C0002AA131 /* main.m */,
+			);
+			path = CJMap;
+			sourceTree = "<group>";
+		};
+		04254B46249208C0002AA131 /* CJMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				04254B47249208C0002AA131 /* CJMapTests.m */,
+				04254B49249208C0002AA131 /* Info.plist */,
+			);
+			path = CJMapTests;
+			sourceTree = "<group>";
+		};
+		04254B51249208C0002AA131 /* CJMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04254B52249208C0002AA131 /* CJMapUITests.m */,
+				04254B54249208C0002AA131 /* Info.plist */,
+			);
+			path = CJMapUITests;
+			sourceTree = "<group>";
+		};
+		04254B612492105B002AA131 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				04254B8B249235E2002AA131 /* UIView+MJExtension.h */,
+				04254B8A249235E2002AA131 /* UIView+MJExtension.m */,
+				04254B6024920A42002AA131 /* CJMapPrefixHeader.pch */,
+				04254B6224921083002AA131 /* CJMapHeader.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		04254B6F24921E30002AA131 /* 行车路线轨迹 */ = {
+			isa = PBXGroup;
+			children = (
+				04254B7624921ED1002AA131 /* Utility */,
+				04254B7224921E64002AA131 /* view */,
+				04254B7124921E56002AA131 /* model */,
+				04254B7024921E48002AA131 /* controller */,
+			);
+			path = "行车路线轨迹";
+			sourceTree = "<group>";
+		};
+		04254B7024921E48002AA131 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04254B632492138E002AA131 /* CJTrajectoryController.h */,
+				04254B642492138E002AA131 /* CJTrajectoryController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04254B7124921E56002AA131 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04254B8124921F30002AA131 /* LineDashPolyline.h */,
+				04254B8024921F30002AA131 /* LineDashPolyline.m */,
+				04254B7D24921F22002AA131 /* MANaviPolyline.h */,
+				04254B7E24921F22002AA131 /* MANaviPolyline.m */,
+				04254B7A24921F06002AA131 /* MANaviAnnotation.h */,
+				04254B7B24921F06002AA131 /* MANaviAnnotation.m */,
+				04254B7324921E85002AA131 /* MANaviRoute.h */,
+				04254B7424921E85002AA131 /* MANaviRoute.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04254B7224921E64002AA131 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04254B7624921ED1002AA131 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04254B7724921ED1002AA131 /* CommonUtility.m */,
+				04254B7824921ED1002AA131 /* CommonUtility.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		04254B832492230A002AA131 /* 当前位置 */ = {
+			isa = PBXGroup;
+			children = (
+				04254B66249213B5002AA131 /* CJLocationController.h */,
+				04254B67249213B5002AA131 /* CJLocationController.m */,
+			);
+			path = "当前位置";
+			sourceTree = "<group>";
+		};
+		04254B842492231C002AA131 /* 自定义圆点图 */ = {
+			isa = PBXGroup;
+			children = (
+				04254B6924921819002AA131 /* CJLocalImageController.h */,
+				04254B6A24921819002AA131 /* CJLocalImageController.m */,
+			);
+			path = "自定义圆点图";
+			sourceTree = "<group>";
+		};
+		04254B8524922338002AA131 /* 圆点带方向旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				04254B6C24921B13002AA131 /* CJDirectionController.h */,
+				04254B6D24921B13002AA131 /* CJDirectionController.m */,
+			);
+			path = "圆点带方向旋转";
+			sourceTree = "<group>";
+		};
+		04254B8624922DB9002AA131 /* 区域内搜索(大众) */ = {
+			isa = PBXGroup;
+			children = (
+				047B7567249252C60012790C /* view */,
+				04254B8724922DEE002AA131 /* CJPolygonController.h */,
+				04254B8824922DEE002AA131 /* CJPolygonController.m */,
+			);
+			path = "区域内搜索(大众)";
+			sourceTree = "<group>";
+		};
+		046CD18D249311B20037A64F /* 反地理编码(坐标转地址) */ = {
+			isa = PBXGroup;
+			children = (
+				046CD18A249311AD0037A64F /* CJReGeocodeController.h */,
+				046CD18B249311AD0037A64F /* CJReGeocodeController.m */,
+			);
+			path = "反地理编码(坐标转地址)";
+			sourceTree = "<group>";
+		};
+		047B7567249252C60012790C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				047B7568249252E50012790C /* CJSearchPOIPointAnnotation.h */,
+				047B7569249252E50012790C /* CJSearchPOIPointAnnotation.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		047B756B2492545C0012790C /* 导航 */ = {
+			isa = PBXGroup;
+			children = (
+				047B7573249255BA0012790C /* other */,
+				047B756F2492552C0012790C /* view */,
+				047B756C2492547B0012790C /* CJNAVController.h */,
+				047B756D2492547B0012790C /* CJNAVController.m */,
+			);
+			path = "导航";
+			sourceTree = "<group>";
+		};
+		047B756F2492552C0012790C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				047B7570249255390012790C /* MoreMenuView.h */,
+				047B7571249255390012790C /* MoreMenuView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		047B7573249255BA0012790C /* other */ = {
+			isa = PBXGroup;
+			children = (
+				047B7574249255C40012790C /* SpeechSynthesizer.h */,
+				047B7575249255C40012790C /* SpeechSynthesizer.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		047B757724925FC70012790C /* 地理编码(地址转坐标) */ = {
+			isa = PBXGroup;
+			children = (
+				047B757B2492619A0012790C /* view */,
+				047B757824925FE30012790C /* CJGeocodingController.h */,
+				047B757924925FE30012790C /* CJGeocodingController.m */,
+			);
+			path = "地理编码(地址转坐标)";
+			sourceTree = "<group>";
+		};
+		047B757B2492619A0012790C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				047B757D249261A40012790C /* GeocodeAnnotation.h */,
+				047B757C249261A40012790C /* GeocodeAnnotation.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		713C7B5F1592FAC17C718014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8BF314078799F7FE8D8AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				679DBD47AE4F329D961B79A5 /* Pods-CJMap.debug.xcconfig */,
+				6FD9BB9168B8E3901524411C /* Pods-CJMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04254B27249208BF002AA131 /* CJMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04254B57249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMap" */;
+			buildPhases = (
+				90213843FC298C30FAE1D8F1 /* [CP] Check Pods Manifest.lock */,
+				04254B24249208BF002AA131 /* Sources */,
+				04254B25249208BF002AA131 /* Frameworks */,
+				04254B26249208BF002AA131 /* Resources */,
+				C5FDE7FAF70CFE3C1320DB02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJMap;
+			productName = CJMap;
+			productReference = 04254B28249208BF002AA131 /* CJMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04254B42249208C0002AA131 /* CJMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04254B5A249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMapTests" */;
+			buildPhases = (
+				04254B3F249208C0002AA131 /* Sources */,
+				04254B40249208C0002AA131 /* Frameworks */,
+				04254B41249208C0002AA131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04254B45249208C0002AA131 /* PBXTargetDependency */,
+			);
+			name = CJMapTests;
+			productName = CJMapTests;
+			productReference = 04254B43249208C0002AA131 /* CJMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04254B4D249208C0002AA131 /* CJMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04254B5D249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMapUITests" */;
+			buildPhases = (
+				04254B4A249208C0002AA131 /* Sources */,
+				04254B4B249208C0002AA131 /* Frameworks */,
+				04254B4C249208C0002AA131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04254B50249208C0002AA131 /* PBXTargetDependency */,
+			);
+			name = CJMapUITests;
+			productName = CJMapUITests;
+			productReference = 04254B4E249208C0002AA131 /* CJMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04254B20249208BF002AA131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJ;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = SmartPig;
+				TargetAttributes = {
+					04254B27249208BF002AA131 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					04254B42249208C0002AA131 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04254B27249208BF002AA131;
+					};
+					04254B4D249208C0002AA131 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 04254B27249208BF002AA131;
+					};
+				};
+			};
+			buildConfigurationList = 04254B23249208BF002AA131 /* Build configuration list for PBXProject "CJMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04254B1F249208BF002AA131;
+			productRefGroup = 04254B29249208BF002AA131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04254B27249208BF002AA131 /* CJMap */,
+				04254B42249208C0002AA131 /* CJMapTests */,
+				04254B4D249208C0002AA131 /* CJMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04254B26249208BF002AA131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04254B3B249208C0002AA131 /* LaunchScreen.storyboard in Resources */,
+				04254B38249208C0002AA131 /* Assets.xcassets in Resources */,
+				04254B36249208BF002AA131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B41249208C0002AA131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B4C249208C0002AA131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90213843FC298C30FAE1D8F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CJMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FDE7FAF70CFE3C1320DB02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CJMap/Pods-CJMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CJMap/Pods-CJMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CJMap/Pods-CJMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04254B24249208BF002AA131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04254B33249208BF002AA131 /* ViewController.m in Sources */,
+				04254B8224921F30002AA131 /* LineDashPolyline.m in Sources */,
+				047B756E2492547B0012790C /* CJNAVController.m in Sources */,
+				04254B2D249208BF002AA131 /* AppDelegate.m in Sources */,
+				04254B8C249235E2002AA131 /* UIView+MJExtension.m in Sources */,
+				04254B6E24921B13002AA131 /* CJDirectionController.m in Sources */,
+				04254B7524921E85002AA131 /* MANaviRoute.m in Sources */,
+				04254B6B24921819002AA131 /* CJLocalImageController.m in Sources */,
+				04254B68249213B5002AA131 /* CJLocationController.m in Sources */,
+				047B7572249255390012790C /* MoreMenuView.m in Sources */,
+				047B757A24925FE30012790C /* CJGeocodingController.m in Sources */,
+				047B757E249261A40012790C /* GeocodeAnnotation.m in Sources */,
+				047B7576249255C40012790C /* SpeechSynthesizer.m in Sources */,
+				04254B7924921ED1002AA131 /* CommonUtility.m in Sources */,
+				046CD18C249311AD0037A64F /* CJReGeocodeController.m in Sources */,
+				04254B8924922DEE002AA131 /* CJPolygonController.m in Sources */,
+				04254B3E249208C0002AA131 /* main.m in Sources */,
+				047B756A249252E50012790C /* CJSearchPOIPointAnnotation.m in Sources */,
+				04254B7C24921F06002AA131 /* MANaviAnnotation.m in Sources */,
+				04254B7F24921F22002AA131 /* MANaviPolyline.m in Sources */,
+				04254B652492138E002AA131 /* CJTrajectoryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B3F249208C0002AA131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04254B48249208C0002AA131 /* CJMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04254B4A249208C0002AA131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04254B53249208C0002AA131 /* CJMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04254B45249208C0002AA131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04254B27249208BF002AA131 /* CJMap */;
+			targetProxy = 04254B44249208C0002AA131 /* PBXContainerItemProxy */;
+		};
+		04254B50249208C0002AA131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04254B27249208BF002AA131 /* CJMap */;
+			targetProxy = 04254B4F249208C0002AA131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04254B34249208BF002AA131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04254B35249208BF002AA131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04254B39249208C0002AA131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04254B3A249208C0002AA131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04254B55249208C0002AA131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04254B56249208C0002AA131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04254B58249208C0002AA131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679DBD47AE4F329D961B79A5 /* Pods-CJMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CJMap/common/CJMapPrefixHeader.pch";
+				INFOPLIST_FILE = CJMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04254B59249208C0002AA131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD9BB9168B8E3901524411C /* Pods-CJMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CJMap/common/CJMapPrefixHeader.pch";
+				INFOPLIST_FILE = CJMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04254B5B249208C0002AA131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJMap.app/CJMap";
+			};
+			name = Debug;
+		};
+		04254B5C249208C0002AA131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJMap.app/CJMap";
+			};
+			name = Release;
+		};
+		04254B5E249208C0002AA131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJMap;
+			};
+			name = Debug;
+		};
+		04254B5F249208C0002AA131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TK8557XFF5;
+				INFOPLIST_FILE = CJMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdriver.www.CJMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CJMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04254B23249208BF002AA131 /* Build configuration list for PBXProject "CJMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04254B55249208C0002AA131 /* Debug */,
+				04254B56249208C0002AA131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04254B57249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04254B58249208C0002AA131 /* Debug */,
+				04254B59249208C0002AA131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04254B5A249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04254B5B249208C0002AA131 /* Debug */,
+				04254B5C249208C0002AA131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04254B5D249208C0002AA131 /* Build configuration list for PBXNativeTarget "CJMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04254B5E249208C0002AA131 /* Debug */,
+				04254B5F249208C0002AA131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04254B20249208BF002AA131 /* Project object */;
+}
