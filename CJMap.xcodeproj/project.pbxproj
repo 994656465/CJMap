@@ -33,6 +33,7 @@
 		047B7576249255C40012790C /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B7575249255C40012790C /* SpeechSynthesizer.m */; };
 		047B757A24925FE30012790C /* CJGeocodingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757924925FE30012790C /* CJGeocodingController.m */; };
 		047B757E249261A40012790C /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757C249261A40012790C /* GeocodeAnnotation.m */; };
+		04A40F96249C4F43001E6C7A /* CJCustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40F95249C4F43001E6C7A /* CJCustomController.m */; };
 		10ABBB41F03EC9A99F962987 /* libPods-CJMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,10 @@
 		047B757924925FE30012790C /* CJGeocodingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJGeocodingController.m; sourceTree = "<group>"; };
 		047B757C249261A40012790C /* GeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeAnnotation.m; sourceTree = "<group>"; };
 		047B757D249261A40012790C /* GeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeAnnotation.h; sourceTree = "<group>"; };
+		04A40F92249C4F12001E6C7A /* style.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style.data; sourceTree = "<group>"; };
+		04A40F93249C4F12001E6C7A /* style_extra.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style_extra.data; sourceTree = "<group>"; };
+		04A40F94249C4F43001E6C7A /* CJCustomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJCustomController.h; sourceTree = "<group>"; };
+		04A40F95249C4F43001E6C7A /* CJCustomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCustomController.m; sourceTree = "<group>"; };
 		679DBD47AE4F329D961B79A5 /* Pods-CJMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.debug.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD9BB9168B8E3901524411C /* Pods-CJMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.release.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.release.xcconfig"; sourceTree = "<group>"; };
 		98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +169,8 @@
 		04254B2A249208BF002AA131 /* CJMap */ = {
 			isa = PBXGroup;
 			children = (
+				04A40F91249C4EF5001E6C7A /* resource */,
+				04A40F8D249C4E8A001E6C7A /* 自定义地图 */,
 				046CD18D249311B20037A64F /* 反地理编码(坐标转地址) */,
 				047B757724925FC70012790C /* 地理编码(地址转坐标) */,
 				047B756B2492545C0012790C /* 导航 */,
@@ -367,6 +374,24 @@
 				047B757C249261A40012790C /* GeocodeAnnotation.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		04A40F8D249C4E8A001E6C7A /* 自定义地图 */ = {
+			isa = PBXGroup;
+			children = (
+				04A40F94249C4F43001E6C7A /* CJCustomController.h */,
+				04A40F95249C4F43001E6C7A /* CJCustomController.m */,
+			);
+			path = "自定义地图";
+			sourceTree = "<group>";
+		};
+		04A40F91249C4EF5001E6C7A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				04A40F93249C4F12001E6C7A /* style_extra.data */,
+				04A40F92249C4F12001E6C7A /* style.data */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 		713C7B5F1592FAC17C718014 /* Frameworks */ = {
@@ -576,6 +601,7 @@
 				047B7576249255C40012790C /* SpeechSynthesizer.m in Sources */,
 				04254B7924921ED1002AA131 /* CommonUtility.m in Sources */,
 				046CD18C249311AD0037A64F /* CJReGeocodeController.m in Sources */,
+				04A40F96249C4F43001E6C7A /* CJCustomController.m in Sources */,
 				04254B8924922DEE002AA131 /* CJPolygonController.m in Sources */,
 				04254B3E249208C0002AA131 /* main.m in Sources */,
 				047B756A249252E50012790C /* CJSearchPOIPointAnnotation.m in Sources */,

@@ -14,6 +14,7 @@
 #import "CJPolygonController.h"
 #import "CJGeocodingController.h"
 #import "CJReGeocodeController.h"
+#import "CJCustomController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong)  NSArray * arr ;
@@ -25,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.arr = @[@"当前位置",@"自定义圆点图",@"圆点带方向旋转",@"驾车路线轨迹",@"区域内搜索(大众)",@"地理编码(地址转坐标)",@"反地理编码(坐标转地址)"];
+    self.arr = @[@"当前位置",@"自定义圆点图",@"圆点带方向旋转",@"驾车路线轨迹",@"区域内搜索(大众)",@"地理编码(地址转坐标)",@"反地理编码(坐标转地址)",@"自定义地图样式"];
     UITableView * tableveiw = [[UITableView alloc]init];
     tableveiw.delegate = self;
     tableveiw.dataSource = self;
@@ -110,6 +111,13 @@
                 [self.navigationController pushViewController:locationVC animated:YES];
             }
                 break;
+               case 7:
+            {
+                CJCustomController * locationVC = [[CJCustomController alloc]init];
+                locationVC.title =self.arr[indexPath.row];
+                [self.navigationController pushViewController:locationVC animated:YES];
+            }
+                break;
 
         default:
             break;
@@ -117,3 +125,4 @@
 }
 
 @end
+
