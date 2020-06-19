@@ -28,7 +28,6 @@
     self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     self.mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.mapView.delegate = self;
-    self.mapView.customMapStyleEnabled = YES;
     //  不支持旋转
     self.mapView.rotateEnabled = NO;
     //倾斜收拾
@@ -45,11 +44,12 @@
     NSString *extrapath = [[NSBundle mainBundle] pathForResource:@"style_extra" ofType:@"data"];
     NSData *extradata = [NSData dataWithContentsOfFile:extrapath];
     MAMapCustomStyleOptions *options = [[MAMapCustomStyleOptions alloc] init];
-    options.styleId = @"74dcfe3a9ed7a2b181e7af11aea1ea9d";
+//    options.styleId = @"74dcfe3a9ed7a2b181e7af11aea1ea9d";
     options.styleData = data;
     options.styleExtraData = extradata;
     [self.mapView setCustomMapStyleOptions:options];
-    
+    [self.mapView setCustomMapStyleEnabled:YES];
+
     [self.view addSubview:self.mapView];
     
 

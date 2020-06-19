@@ -34,6 +34,8 @@
 		047B757A24925FE30012790C /* CJGeocodingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757924925FE30012790C /* CJGeocodingController.m */; };
 		047B757E249261A40012790C /* GeocodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B757C249261A40012790C /* GeocodeAnnotation.m */; };
 		04A40F96249C4F43001E6C7A /* CJCustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A40F95249C4F43001E6C7A /* CJCustomController.m */; };
+		04A40F9B249C58ED001E6C7A /* style_extra.data in Resources */ = {isa = PBXBuildFile; fileRef = 04A40F99249C58ED001E6C7A /* style_extra.data */; };
+		04A40F9C249C58ED001E6C7A /* style.data in Resources */ = {isa = PBXBuildFile; fileRef = 04A40F9A249C58ED001E6C7A /* style.data */; };
 		10ABBB41F03EC9A99F962987 /* libPods-CJMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */; };
 /* End PBXBuildFile section */
 
@@ -109,10 +111,10 @@
 		047B757924925FE30012790C /* CJGeocodingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJGeocodingController.m; sourceTree = "<group>"; };
 		047B757C249261A40012790C /* GeocodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocodeAnnotation.m; sourceTree = "<group>"; };
 		047B757D249261A40012790C /* GeocodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocodeAnnotation.h; sourceTree = "<group>"; };
-		04A40F92249C4F12001E6C7A /* style.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style.data; sourceTree = "<group>"; };
-		04A40F93249C4F12001E6C7A /* style_extra.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style_extra.data; sourceTree = "<group>"; };
 		04A40F94249C4F43001E6C7A /* CJCustomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJCustomController.h; sourceTree = "<group>"; };
 		04A40F95249C4F43001E6C7A /* CJCustomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCustomController.m; sourceTree = "<group>"; };
+		04A40F99249C58ED001E6C7A /* style_extra.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style_extra.data; sourceTree = "<group>"; };
+		04A40F9A249C58ED001E6C7A /* style.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = style.data; sourceTree = "<group>"; };
 		679DBD47AE4F329D961B79A5 /* Pods-CJMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.debug.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD9BB9168B8E3901524411C /* Pods-CJMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJMap.release.xcconfig"; path = "Target Support Files/Pods-CJMap/Pods-CJMap.release.xcconfig"; sourceTree = "<group>"; };
 		98FA29B0F1A4340FA8C229CD /* libPods-CJMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,8 +390,8 @@
 		04A40F91249C4EF5001E6C7A /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				04A40F93249C4F12001E6C7A /* style_extra.data */,
-				04A40F92249C4F12001E6C7A /* style.data */,
+				04A40F99249C58ED001E6C7A /* style_extra.data */,
+				04A40F9A249C58ED001E6C7A /* style.data */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -517,8 +519,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A40F9B249C58ED001E6C7A /* style_extra.data in Resources */,
 				04254B3B249208C0002AA131 /* LaunchScreen.storyboard in Resources */,
 				04254B38249208C0002AA131 /* Assets.xcassets in Resources */,
+				04A40F9C249C58ED001E6C7A /* style.data in Resources */,
 				04254B36249208BF002AA131 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
